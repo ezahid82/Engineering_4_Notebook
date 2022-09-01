@@ -56,7 +56,11 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 Your readme will have various images and gifs on it. Upload a test image and test gif to make sure you've got the process figured out. Pick whatever image and gif you want!
 
 ### Test Link
-
+ [Battery Charging](https://www.chargingchargers.com/tutorials/charging.html)
+ 
 ### Test Image
+[the test file](raspberry-pi/test.py)
 
 ### Test GIF
+![Picture Name Here](images/Github%20Repositry%20test%20image.jpg)  
+

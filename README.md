@@ -59,7 +59,7 @@ Your readme will have various images and gifs on it. Upload a test image and tes
  [Battery Charging](https://www.chargingchargers.com/tutorials/charging.html)
  
 ### Test Image
-[the test file](raspberry-pi/test.py)
+![Picture Name Here](images/Github%20Repositry%20test%20gif.gif)  
 
 ### Test GIF
 ![Picture Name Here](images/Github%20Repositry%20test%20image.jpg)  

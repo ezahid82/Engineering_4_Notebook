@@ -1,0 +1,10 @@
+# type: ignore 
+
+import time
+
+
+
+for x in range(10, 1, -1):
+time.sleep(0.100)
+print(x)
+time.sleep(0.100)

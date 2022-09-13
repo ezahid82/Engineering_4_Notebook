@@ -17,6 +17,7 @@ the countdown assignment was intended to test a program that would fix the broke
 ### Evidence 
 
 Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+![the countdown ran completely](./images/launchpad%20countdown.PNG)
 
 ### Wiring
 
@@ -26,6 +27,8 @@ no wiring was needed other than a pico baord connection to the device.
 Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
 
 ### Reflection
+
+This assignment was challenging because of the language and making the [**forloop**] run 
 
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 

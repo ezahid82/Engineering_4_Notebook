@@ -28,7 +28,7 @@ Give me a link to your code. [Something like this](https://github.com/millerm22/
 
 ### Reflection
 
-This assignment was challenging because of the language and making the [**forloop**] run 
+This assignment was challenging because of the language and making the [**for-loop**] encrement the numebers decreasing from [one] to [10]. After some testing, I was able to figure out how to increment the numbers negatively.
 
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 

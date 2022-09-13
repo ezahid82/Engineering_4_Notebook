@@ -8,6 +8,37 @@
 
 &nbsp;
 
+## Launchpad Part One (Countdown)
+
+### Assignment Description
+
+the countdown assignment was intended to test a program that would fix the broken space launch pad and accuratly allow the astronauts to launch a ship
+
+### Evidence 
+
+Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+
+### Wiring
+
+no wiring was needed other than a pico baord connection to the device. 
+
+### Code
+Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+
+### Reflection
+
+What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+
+
+&nbsp;
+
+
+## Table of Contents
+* [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
+* [Onshape_Assignment_Template](#onshape_assignment_template)
+
+&nbsp;
+
 ## Raspberry_Pi_Assignment_Template
 
 ### Assignment Description

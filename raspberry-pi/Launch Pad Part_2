@@ -1,0 +1,27 @@
+# type: ignore
+
+import time
+import board
+import digitalio
+
+
+
+led = digitalio.DigitalInOut(board.GP15)
+led = digitalio.DigitalInOut(board.GP16)
+led.direction = digitalio.Direction.OUTPUT
+
+while True:
+
+for x in range(10, 0, -1):       # Using a [for] loop to express the values between 0-10 and making it count down by [-1]
+    time.sleep(0.5000)           # Adds a delay in between the countdown
+    print(x)                     # Prints all the values going from [10] down to [0] by the increment amount (-1)
+    time.sleep(0.5000)
+    print("liftoff")             # Prints to confirm the launch and end of program.
+    
+if (x <=10 and x>=1):
+    led.value = True
+else:
+    time.sleep(0.50)
+    led.value = False
+    time.sleep(0.50)
+

@@ -20,11 +20,11 @@ for x in range(10, -1, -1):      #  Using a [for] loop to express the values bet
 
     
     if (x <= 10 and x >= 1):        # Adds a range to which the Green LED with be [True].
-        led.value = True            # Keeps the Green LED on.
+        led2.value = True            # Keeps the Red LED on.
         time.sleep(0.5)             # Adds a time limit to how long it will stay on.
-        led.value = False           # Turns the Green LED off.
+        led2.value = False           # Turns the Red LED off.
     else:
-        led2.value = True           # Turns the Red LED on.
+        led.value = True           # Turns the Green LED on.
         print("liftoff")            # Prints to confirm the launch and end of program.
 
 while True:         # Keeps the statement above True and CREATES a loop that stops the code from ending.

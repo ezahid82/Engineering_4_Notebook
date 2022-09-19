@@ -4,7 +4,7 @@ import time
 import board
 import digitalio
 
-led = digitalio.DigitalInOut(board.GP19)
+button = digitalio.DigitalInOut(board.GP19)
 button.pull = digitalio.Pull.DOWN
 led2.direction = digitalio.Direction.INPUT
 

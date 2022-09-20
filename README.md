@@ -35,6 +35,40 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 &nbsp;
 
+## Launch Pad Part 3 (button)
+
+
+### Assignment Description
+
+The **button** assignement was intended to add a manual lanuch system that would allow the countdown to start only by command. This assignment would all the rocket to stay put until all other actions have been completed and a given command by the push of the button would allow it to launch.
+
+### Evidence 
+
+![the button launch](images/Launch%20Pad%20Part%203%20gif%20(Button).gif)
+
+
+### Wiring
+
+![launch pad part 3 (button) wiring](images/Launch%20Pad%20Part%203%20%5Bwiring%5D.jpg)
+
+
+### Code
+
+[launch pad part 3 (button) code](raspberry-pi/Launch%20Pad%20Part_3)
+
+
+
+### Reflection
+
+This assignement was challenging with getting the button statements and variables. It was solved by getting the dircetion of the **botton** *input* and simply adding a [**while**] statement and using an [**if**] statment to check if the **button** has been pressed. 
+
+What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+
+&nbsp;
+
+
+
+
 
 ## Table of Contents
 * [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)

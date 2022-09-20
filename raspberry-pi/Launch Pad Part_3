@@ -6,7 +6,7 @@ import digitalio
 
 button = digitalio.DigitalInOut(board.GP19)
 button.pull = digitalio.Pull.DOWN
-led2.direction = digitalio.Direction.INPUT
+button.direction = digitalio.Direction.INPUT
 
 
 

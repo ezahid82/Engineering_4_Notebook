@@ -8,32 +8,62 @@
 
 &nbsp;
 
-## Launchpad Part One (Countdown)
+## Launchpad Part 1 (Countdown)
 
 ### Assignment Description
 
-the countdown assignment was intended to test a program that would fix the broken space launch pad and accuratly allow the astronauts to launch a ship
+the **countdown** assignment was intended to test a program that would fix the broken space launch pad and accuratly allow the astronauts to launch a ship at the end of the countdown
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
 ![the countdown ran completely](./images/launchpad%20countdown.PNG)
 
 ### Wiring
 
 no wiring was needed other than a pico baord connection to the device. 
 
-### Code
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+### Code 
+
+[Launch Pad Part One.](raspberry-pi/Launch%20Pad%20Part_1)
 
 ### Reflection
 
 This assignment was challenging because of the language and making the [**for-loop**] encrement the numebers decreasing from [one] to [10]. After some testing, I was able to figure out how to increment the numbers negatively.
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 
 
 &nbsp;
+
+
+## Launch Pad Part 2 (lights)
+
+### Assignment Description
+
+This assignment was to add **LEDs** to the countdown so that the astronauts are aware of 
+
+### Evidence 
+
+Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+
+### Wiring
+
+![Launch Pad Part 2 (wiring)](images/Launch%20Pad%20Part%202%20%5Bwiring%5D.jpg)
+
+
+### Code
+
+[Launch Pad Part 2 (code)](raspberry-pi/Launch%20Pad%20Part_2)
+
+### Reflection
+
+This assignment was challenging in the sense that 
+
+What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+
+&nbsp;
+
+
+
 
 ## Launch Pad Part 3 (button)
 
@@ -60,13 +90,34 @@ The **button** assignement was intended to add a manual lanuch system that would
 
 ### Reflection
 
-This assignement was challenging with getting the button statements and variables. It was solved by getting the dircetion of the **botton** *input* and simply adding a [**while**] statement and using an [**if**] statment to check if the **button** has been pressed. 
+This assignement was challenging with getting the button statements and variables. It was solved by getting the dircetion of the **botton** *input* and simply adding a [**while**] loop and using an [**if**] statment to check *if* the **button** has been pressed. I was able to learn that you don't need all the pins of the button to make it function as intended. Only two wires on the same side would be enough. Secondly, some [**GP**] pins share the same **PWM** frequency.
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 
 &nbsp;
 
 
+## Raspberry_Pi_Assignment_Template
+
+### Assignment Description
+
+Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+
+### Evidence 
+
+Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+
+### Wiring
+
+This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+
+### Code
+Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+
+### Reflection
+
+What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+
+&nbsp;
 
 
 

@@ -43,6 +43,8 @@ This assignment was to add **LEDs** to the countdown so that the astronauts are 
 
 ### Evidence 
 
+![Countdown with LEDs](images/Launch%20Pad%20Part%202%20%5Bevidence%5D.gif)
+
 Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
 
 ### Wiring
@@ -94,6 +96,40 @@ This assignement was challenging with getting the button statements and variable
 
 
 &nbsp;
+
+
+
+## Launch Pad Part 4 (servo)
+
+### Assignment Description
+
+This assignment made the engineers launch the spaceship from a launch pad that could move and let the rocket go as it launched by the end of the countdown. 
+
+
+### Evidence 
+
+![Launch Pad Part 4 (Servo)](images/Launch%20Pad%20Part%204%20%5Bevidence%5D.gif)
+
+### Wiring
+
+![Launch Pad Part 4 (wiring)](images/Launch%20Pad%20Part%204%20%5Bwiring%5D.gif)
+
+This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+
+### Code
+
+[launch pad part 4 (code)](raspberry-pi/Launch%20Pad%20Part_4)
+
+### Reflection
+
+This assignment was challenging in that it was difficult in getting the servo to work. It was however much easier because the code was similar to the **led** and **button**. The Servo at somepoint wouldn't spin 180 degrees and wouldn't reset after it had finished running. IT was solved by testing different angles, and getting the servo to spin back to (**0**) after it was done.
+
+What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+
+&nbsp;
+
+
+
 
 
 ## Raspberry_Pi_Assignment_Template

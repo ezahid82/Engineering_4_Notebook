@@ -1,9 +1,25 @@
 # type: ignore 
 
+# imports of neccessary libraries
 import adafruit_mpu6050
 import busio
+import board
+import time
 
 
+# assigning  pico pins to the accelerometer pins
+sda_pin = board.GP16   # sda = Serial Data
+scl_pin = board.GP17   # scl = Serial Clock
+i2c = busio.I2C(scl_pin, sda_pin) 
 
+mpu = adafruit_mpu6050.MPU6050(i2c)
 
-
+# a while statments that keeps the code runnig continuously.    [f"___{---}"] is an f-string that is easy for formatting strings.
+# f-strings use {} to place the variables (inside the quotes) and everything that is a string (text) is placed outsdie the brackets
+# but still in the quote marks.
+while True:
+    print(f"X Acceleration: {mpu.acceleration[0]} m/s2")  # Prints the X axis on the accelerometer.
+    print(f"Y Acceleration: {mpu.acceleration[1]} m/s2")  # Prints the Y axis on the accelerometer.
+    print(f"Z Acceleration: {mpu.acceleration[2]} m/s2")  # Prints the Z axis on the accelerometer.
+    print("")        # adds a gap in between the [X, Y, Z] axis after all three are printed.
+    time.sleep(1)     # adds a delay between when the next variable 

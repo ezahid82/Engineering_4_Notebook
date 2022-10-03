@@ -136,16 +136,18 @@ This assignment will take an accelerometer and would return you the **X, Y,** an
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+![accelerometer gif](images/crash%20avoidance%20(accelerometer)%20%5Bevidence%5D.gif)
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+![accelerometer wiring](images/Crash%20Avoidance%20(accelerometer)%20%5Bwiring%5D.jpg)
 
 ### Code
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+
+[Crash Avoidance (Accelerometer) [code]](raspberry-pi/Crash%20Avoidance%20(accelerometer))
 
 ### Reflection
+This assignment was challenging with getting the variables **X, Y,** and **Z** to start to output correct numbers. At first, I had a hard time getting each to be displayed one on top of the other. It was solved by using numbers to identify *X,Y,Z*. I learnt that if you use an **if-string**, it is much easier to have variables and text as you would put the varliable the **{}** and the text *string* can go on the outide of the brackets, but inside the quote marks.
 
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 

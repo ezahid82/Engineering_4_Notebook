@@ -156,6 +156,35 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 
 
+## Crash Avoidance (light + powerboost)
+
+### Assignment Description
+
+the purpose of this assignment is to make the accelerometer light up when it is *turned* **90 degrees** and then be *"headless"* by being *connected* to a **LiPo battery**.
+
+### Evidence 
+
+![light + powerboost (gif)](images/Crash%20Avoidance%20(light%20+%20powerboost)%5Bevidence%5D.gif)
+
+### Wiring
+
+This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+
+### Code
+
+ [light and powerboost (code)](raspberry-pi/Crash%20Avoidance%20(light+powerboost))
+
+### Reflection
+
+This assignement wasn't as challengeing since it required the previous code and only required *added* code. An **If-statement** was added to the code which made the accelerometer read in *90 degrees* and if it was **true**, the **red led** would turn on. On the outside, the wiring was changed only with the *LED* added to **GP 15** and the cord that connected it to the computer was replaced with a **powerboost 500C** that powered teh whole circuit.
+
+&nbsp;
+
+
+
+
+
+
 ## Raspberry_Pi_Assignment_Template
 
 ### Assignment Description

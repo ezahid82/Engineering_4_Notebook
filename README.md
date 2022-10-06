@@ -156,7 +156,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 
 
-## Crash Avoidance (light + powerboost)
+## Crash Avoidance Part 2(light + powerboost)
 
 ### Assignment Description
 
@@ -168,7 +168,7 @@ the purpose of this assignment is to make the accelerometer light up when it is 
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+![crash avoidance part 2 wiring](images/Crash%20Avoidance%20(light%20+%20powerboost)%20%5Bwiring%5D.jpg)
 
 ### Code
 

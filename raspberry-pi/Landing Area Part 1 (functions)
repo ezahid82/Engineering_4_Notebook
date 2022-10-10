@@ -1,0 +1,21 @@
+def triangle_area(x1y1,x2y2,x3y3):
+    try:
+
+        x1y1 = float()
+        x2y2 = float()
+        x3y3 = float()
+        area = 
+        print(f"The area of the triangle with coordinates({x1y1} + {x2y2} + {x3y3} ) ")
+        return Area
+
+
+
+
+while True:
+
+    print ("please enter the coordinates: ")
+    x1y1 = input()
+    x2y2 = input()
+    x3y3 = input()
+
+    area = triangle_area(val1,val2,val3)

@@ -203,6 +203,8 @@ This may not be applicable to all assignments. Anything where you wire something
 
 ### Reflection
 
+This assignment was only adding new parts to the previous wiring. It was easy to understand that by putting the (**SDA**) and (**SCL**) pins behind the accelerometer, you can connect those pins to the *OLED Screen*. I was difficult to get the LED Screen to display the numbers, as it would always cuase a syntax error. It was resolved by placeing the correct order of code in order to make the *Pico* read in which device was feeding it data.
+
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 
 &nbsp;

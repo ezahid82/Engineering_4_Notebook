@@ -1,21 +1,43 @@
-def triangle_area(x1y1,x2y2,x3y3):
-    try:
-
-        x1y1 = float()
-        x2y2 = float()
-        x3y3 = float()
-        area = 
-        print(f"The area of the triangle with coordinates({x1y1} + {x2y2} + {x3y3} ) ")
-        return Area
+def triangle_area(x1y1,x2y2,x3y3):   # makes a function with parameters for x,y coordinates
 
 
+    try:    # tests a block of code for errors
 
+    # splits the x1y1 coordinates into separate variables like x1, y1.
+        x1y1 = x1y1.split(",")
+        x2y2 = x2y2.split(",")
+        x3y3 = x3y3.split(",")
 
+    # turns the inputed string in x1 y1 into number forms.
+        x1 = float(x1y1[0])
+        y1 = float(x1y1[1])
+        x2 = float(x2y2[0])   #[0] means that after every comma, the number order always becomes 0 and goes on before another comma is added
+        y2 = float(x2y2[1])   #[1] means that the next inputed string you be under value 1
+        x3 = float(x3y3[0])
+        y3 = float(x3y3[1])
+
+        area = (1/2)*abs(x1*(y2-y3) + x2*(y3-y1) + x3*(y1-y2))   # The equation for calucalting the area of a triangle with three vertecies
+
+        return area
+
+    except:   # lets you handle the error
+        print("These points are not a valid triangle. Please try again, and make sure you are using the x,y syntax!")
+        area = 0
+        return area
+
+# asks the user for three x,y coordinates 
 while True:
 
-    print ("please enter the coordinates: ")
+    print ("please enter the first coordinates in form x,y: ")
     x1y1 = input()
+    print ("please enter the second coordinates in form x,y: ")
     x2y2 = input()
+    print ("please enter the third coordinates in form x,y: ")
     x3y3 = input()
 
-    area = triangle_area(val1,val2,val3)
+    area = triangle_area(x1y1,x2y2,x3y3)   # assigns the coordiantes to area
+
+    if area == 0:
+        continue
+    else:  # prints out the calculated area
+        area = print(f" the Area of {x1y1} + {x2y2} + {x3y3} is {area} square km.")

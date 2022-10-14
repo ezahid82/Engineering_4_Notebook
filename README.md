@@ -199,16 +199,43 @@ This may not be applicable to all assignments. Anything where you wire something
 
 ### Code
 
- [OLED Screen (code)](raspberry-pi/Crash%20Avoidance%20part%203%20(OLED%20Screen))
+[OLED Screen (code)](raspberry-pi/Crash%20Avoidance%20part%203%20(OLED%20Screen))
 
 ### Reflection
 
 This assignment was only adding new parts to the previous wiring. It was easy to understand that by putting the (**SDA**) and (**SCL**) pins behind the accelerometer, you can connect those pins to the *OLED Screen*. I was difficult to get the LED Screen to display the numbers, as it would always cuase a syntax error. It was resolved by placeing the correct order of code in order to make the *Pico* read in which device was feeding it data.
 
+&nbsp;
+
+
+
+
+## Landing Area Part 1 (functions)
+
+### Assignment Description
+
+This assignment measures the **area** of a triangle while given *three different* coordinates in (x,y) form. It runs a function that converts the inputed String into numbers that would be easily used to calculate the area by using the equation of a triangle with vertices.
+
+
+### Evidence 
+
+Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+
+### Wiring
+
+none needed for this part 
+
+### Code
+
+[functions](raspberry-pi/Landing%20Area%20Part%201%20(functions))
+
+### Reflection
+
+This assignement was challenging in first turning the inputted vales which are originally in **String** form, to numbers that could be used to calculate the **area**. It was solved by using a **float()** method. 
+
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 
 &nbsp;
-
 
 
 

@@ -219,7 +219,7 @@ This assignment measures the **area** of a triangle while given *three different
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+![Functions calculating area](images/Landing%20Area%20Part1%20(functions).gif)
 
 ### Wiring
 
@@ -231,9 +231,8 @@ none needed for this part
 
 ### Reflection
 
-This assignement was challenging in first turning the inputted vales which are originally in **String** form, to numbers that could be used to calculate the **area**. It was solved by using a **float()** method. 
+This assignement was challenging in first turning the inputted vales which are originally in **String** form, to numbers that could be used to calculate the **area**. It was solved by using a **float()** method. One thing new I learnt was that by using a **split()** method, you could *split* a character based on agiven input. In this case it was **[code].split(" , ")** to separate the string at the comma.
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 
 &nbsp;
 

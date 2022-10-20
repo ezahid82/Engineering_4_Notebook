@@ -68,7 +68,8 @@ def triangle_area(x1y1,x2y2,x3y3):   # makes a function with parameters for x,y 
         splash.append(triangle)
 
 
-        
+        display.show(splash)
+
         
         return area
 

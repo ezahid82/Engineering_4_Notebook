@@ -238,6 +238,30 @@ This assignement was challenging in first turning the inputted vales which are o
 
 
 
+## Landing Area Part 2 (plotting)
+
+### Assignment Description
+
+This assignment is intended to make the previously entered coordinates, **plotted** on the *OLED Screen*. The screen consists of X and Y-axis that in the center *(64,32)* is the location of the base. The triangle is then displayed relative to the base on the **map**.
+
+### Evidence 
+
+![Landing Area (plotting) [gif]](images/Landing%20Area%20(plotting).gif)
+
+### Wiring
+
+![Landing Area (plotting) [wiring]](images/Landing%20Area%20(plotting)%20%5Bevidence%5D.JPG)
+
+### Code
+
+[Landing Area (plotting) [code]](raspberry-pi/Landing%20Area%20Part%202%20(plotting))
+
+### Reflection
+
+What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+
+&nbsp;
+
 
 
 ## Raspberry_Pi_Assignment_Template

@@ -17,8 +17,8 @@ displayio.release_displays()
 sda_pin = board.GP16   # sda = Serial Data
 scl_pin = board.GP17   # scl = Serial Clock
 i2c = busio.I2C(scl_pin, sda_pin) 
-led = digitalio.DigitalInOut(board.GP15)
-led.direction = digitalio.Direction.OUTPUT
+#led = digitalio.DigitalInOut(board.GP15)
+#led.direction = digitalio.Direction.OUTPUT
 
 mpu = adafruit_mpu6050.MPU6050(i2c, address=0x68)
 

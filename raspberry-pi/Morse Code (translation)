@@ -17,19 +17,21 @@ MORSE_CODE = { 'A':'.-', 'B':'-...',
     '7':'--...', '8':'---..', '9':'----.',
     '0':'-----', ', ':'--..--', '.':'.-.-.-',
     '?':'..--..', '/':'-..-.', '-':'-....-',
-    '(':'-.--.', ')':'-.--.-'}
+    '(':'-.--.', ')':'-.--.-', ' ':'/'}
 
 
 
-While True:
-``
-    print("Enter Morse Code message, or type -q to quit: ")
+while True:
 
-    if input == "-q"
+    message = input("Enter Morse Code message, or type -q to quit: ")
+
+    if message == "-q":
         break
 
+    full_message =""
     message = message.upper()
     for letter in message:
-
-
+        message = MORSE_CODE[letter]
+        full_message = full_message + message + " "
+    print(full_message)
 

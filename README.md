@@ -264,6 +264,32 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 
 
+## Morse Code (Translation)
+
+### Assignment Description
+
+Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+
+### Evidence 
+
+![Morse Code (translation) [gif]](images/Morse%20Code%20(Translation)%20%5Bevidence%5D.gif)
+
+### Wiring
+
+none needed for this assignment
+
+### Code
+
+ [morse code (translation)[code]](raspberry-pi/Morse%20Code%20(translation))
+
+### Reflection
+
+This assignemnt was challenging with getting the **Morse Code** code print correctly. I was solved by making the variable **message** to store the letters and use the corresponding *Morse Code* to print out. One thing I learnt was that by using **break**, you can exit a while loop by a combination of **if() statements**.
+
+&nbsp;
+
+
+
 ## Raspberry_Pi_Assignment_Template
 
 ### Assignment Description

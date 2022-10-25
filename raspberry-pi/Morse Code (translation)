@@ -20,18 +20,22 @@ MORSE_CODE = { 'A':'.-', 'B':'-...',
     '(':'-.--.', ')':'-.--.-', ' ':'/'}
 
 
-
+# keeps running the loop so that it can ask for a message continously. 
 while True:
 
+    # assigns a string line to message 
     message = input("Enter Morse Code message, or type -q to quit: ")
 
+    # uses the string (entered) into message and checks if it is intended to break the loop
     if message == "-q":
         break
 
+    # makes a variable that would store the morse code
     full_message =""
-    message = message.upper()
-    for letter in message:
-        message = MORSE_CODE[letter]
-        full_message = full_message + message + " "
-    print(full_message)
+    message = message.upper()   # makes the inputted string all upper case
+
+    for letter in message:     # makes a **forloop() to check every letter in the inputted string
+        message = MORSE_CODE[letter]    # assigns (message) the [morse code] version of each letter that was previously upper casedl.
+        full_message = full_message + message + " "      # assigns the (full_name) variable the [morse code] version, and a space between each pattern
+    print(full_message)     # prints the morse code.
 

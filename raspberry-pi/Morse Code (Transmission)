@@ -1,0 +1,75 @@
+# type: ignore
+
+import board
+import digitalio
+import time
+
+led = digitalio.DigitalInOut(board.GP15)
+led.direction = digitalio.Direction.OUTPUT
+
+
+# The Morse code timing rules we will use for signaling are: 
+# a dot (.) lasts for 1/4 second. a dash (-) lasts for 3/4 seconds. 
+# the space between dots and dashes that are part of the same letter is 1/4 second.
+# space between letters is 3/4 seconds
+# space between words is 1+3/4 seconds
+
+modifier = 0.25
+dot_time = 1*modifier
+dash_time = 3*modifier
+between_taps = 1*modifier
+between_letters = 3*modifier
+between_words = 7*modifier
+
+
+# Dictionary representing the morse code chart
+MORSE_CODE = { 'A':'.-', 'B':'-...',
+    'C':'-.-.', 'D':'-..', 'E':'.',
+    'F':'..-.', 'G':'--.', 'H':'....',
+    'I':'..', 'J':'.---', 'K':'-.-',
+    'L':'.-..', 'M':'--', 'N':'-.',
+    'O':'---', 'P':'.--.', 'Q':'--.-',
+    'R':'.-.', 'S':'...', 'T':'-',
+    'U':'..-', 'V':'...-', 'W':'.--',
+    'X':'-..-', 'Y':'-.--', 'Z':'--..',
+    '1':'.----', '2':'..---', '3':'...--',
+    '4':'....-', '5':'.....', '6':'-....',
+    '7':'--...', '8':'---..', '9':'----.',
+    '0':'-----', ', ':'--..--', '.':'.-.-.-',
+    '?':'..--..', '/':'-..-.', '-':'-....-',
+    '(':'-.--.', ')':'-.--.-', ' ':'/'}
+
+
+# keeps running the loop so that it can ask for a message continously. 
+while True:
+
+    # assigns a string line to message 
+    message = input("Enter Morse Code message, or type -q to quit: ")
+
+    # uses the string (entered) into message and checks if it is intended to break the loop
+    if message == "-q":
+        break
+
+    # makes a variable that would store the morse code
+    full_message =""
+    message = message.upper()   # makes the inputted string all upper case
+
+    for letter in message:     # makes a **forloop() to check every letter in the inputted string
+        message = MORSE_CODE[letter]    # assigns (message) the [morse code] version of each letter that was previously upper casedl.
+        full_message = full_message + message + " "      # assigns the (full_name) variable the [morse code] version, and a space between each pattern
+    print(full_message)     # prints the morse code.
+
+
+    for character in full_message: #loop thru morse message
+        if character == ".":        # if character is a dot, it will do a short blink
+            led.value = True
+            time.sleep(dot_time)
+            led.value = False
+        elif character == "-":      # if character is a dash, it will do a long blink
+            led.value = True
+            time.sleep(dash_time)
+            led.value = False
+        elif character == " ":      # if character is between letters, it will do a “between letters” pause
+            time.sleep(between_letters)
+        elif character == "/":          # if it's between words, it will do a “between words” pause
+            time.sleep(between_words)

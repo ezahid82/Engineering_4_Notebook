@@ -258,7 +258,8 @@ This assignment is intended to make the previously entered coordinates, **plotte
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+As I was trying to make the coordinates and shape plotted on the **OLED Screen**,  the plots wouldn't render in because of some problem the OLED Screen faced with not displaying the image. It was discovered that while printing the triangle, only the coordiantes inputted would be calculated, but it had no way of know where to put it or what to do with it. It was solved by assigning the coordinates *before* the **splash** which would display it on the screen, and they were moved because the **base** was in the *center* of the screen (64,32), while to OLED Screen started its coordinates from top left corncer (0,0). From this experience, I learnt how to make an OLED Screen work with math and calculations on a graph. It was clear that the screen wouldn't run without **splash**.
+
 
 &nbsp;
 
@@ -268,7 +269,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+This assignment was intended to turn a message into it's morse code pattern. The code uses a **for loop()** to keep the code running continously and uses a specific *string*, **("-q")**, to break from the loop. 
 
 ### Evidence 
 
@@ -287,6 +288,34 @@ none needed for this assignment
 This assignemnt was challenging with getting the **Morse Code** code print correctly. I was solved by making the variable **message** to store the letters and use the corresponding *Morse Code* to print out. One thing I learnt was that by using **break**, you can exit a while loop by a combination of **if() statements**.
 
 &nbsp;
+
+
+
+
+## Morse Code (Transmission)
+
+### Assignment Description
+
+Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+
+### Evidence 
+
+Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+
+### Wiring
+
+This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+
+### Code
+Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+
+### Reflection
+
+What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+
+&nbsp;
+
+
 
 
 

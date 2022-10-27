@@ -4,11 +4,28 @@
 
 ## Table of Contents
 * [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
+
+<br>
+
+* [Launchpad (Countdown)](#launch-pad-part-1-countdown)
+* [Launchpad (Lights)](#launch-pad-part-2-lights)
+* [Launchpad (Button)](#launch-pad-part-3-button)
+* [Launchpad (Servo)](#launch-pad-part-4-servo)
+* [Crash Avoidance (Accelerometer)](#crash-avoidance-part-1-accelerometer) 
+* [Crash Avoidance (Lights+powerboost)](#crash-avoidance-part-2-light-and-powerboost)
+* [Crash Avoidance (OLED Screen)](#crash-avoidance-part-3-oled-screen)
+* [Landing Area (Functions)](#landing-area-part-1-functions)
+* [Landing Area (Plotting)](#landing-area-part-2-plotting)
+* [Morse Code (Translation)](#morse-code-translation)
+* [Morse Code (Transmission)](#morse-code-transmission)
+
+<br>
+
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
 
-## Launchpad Part 1 (Countdown)
+## Launch Pad Part 1 (Countdown)
 
 ### Assignment Description
 
@@ -155,7 +172,7 @@ This assignment was challenging with getting the variables **X, Y,** and **Z** t
 
 
 
-## Crash Avoidance Part 2(light + powerboost)
+## Crash Avoidance Part 2 (light and powerboost)
 
 ### Assignment Description
 
@@ -182,7 +199,7 @@ This assignement wasn't as challengeing since it required the previous code and 
 
 
 
-## Crash Avoidance Part 3(OLED Screen)
+## Crash Avoidance Part 3 (OLED Screen)
 
 ### Assignment Description
 

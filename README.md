@@ -299,19 +299,19 @@ This assignment was intended to expand on the previous assignment( *Morse Code (
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+![Morse Code (transmission) [gif]](images/Morse%20Code%20(Transmission)%20%5Bevidence%5D.gif)
 
 ### Wiring
 
 none needed for this assignment.
 
 ### Code
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+[morse code (transmission)[code]](raspberry-pi/Morse%20Code%20(Transmission))
 
 ### Reflection
 
+This assignment was challenging in getting the **led** to *flash* with correct pauses in between each pettern. I managed to solve it by using **time.sleep()** with a modefier of **1/4** that was multiplied based on a corresponding pattern. This helped distinguish pattern pauses on wether it was between **dots, dashes, words, taps or letters.** I learnt that you can use variables in **time.sleep()** nethods and you can modify it to any number you want, any patterns it should follow, and where it is to be executed.
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 
 &nbsp;
 

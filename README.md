@@ -20,6 +20,8 @@
 * [Landing Area (Plotting)](#landing-area-part-2-plotting)
 * [Morse Code (Translation)](#morse-code-translation)
 * [Morse Code (Transmission)](#morse-code-transmission)
+* [Ring and Spinner](#ring-and-spinner)
+* [Key, Prop and Top](#key-prop-and-top)
 
 <br>
 
@@ -341,8 +343,10 @@ This assignment was challenging in getting the **led** to *flash* with correct p
 
 &nbsp;
 
+<br>
+<br>
 
-## Ring And Spinner
+## Ring and Spinner
 
 ### Assignment Description
 
@@ -366,56 +370,83 @@ This assignemnt required the building of a Ring and a spinner for the pull copte
 
 ### Reflection
 
-Making the helix was hard as each time the design would break and the helix would end up in the wrong area. This was also made harder when **duplicating** the helix as each time it was off temporarily. That section was redone from the start and it fixed the helix being off each time.  
-
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+Making the helix was hard as each time the design would break and the helix would end up in the wrong area. This was also made harder when **duplicating** the helix as each time it was off temporarily. That section was redone from the start and it fixed the helix being off each time. This was also the first time that I used the helix tool in Onshape which makes it **MUCH** easier to makes helixes for screws and other printed parts.
 
 &nbsp;
 
+<br>
+<br>
 
 
-
-## Onshape_Assignment_Template
+## Key, Prop and Top
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+This part of the assignemnt required the making of a **key** and **prop** for the *pull copter* so it would be able to spin the **spinner** and **Prop**. The key consists of ** one sided teeth** that allows it to go into the Top and when pulled, would force the **prop** upwards. 
 
 ### Part Link 
 
-[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
+[Onshape Link](https://cvilleschools.onshape.com/documents/c240f6cf5aa5e32cf7d69d7e/w/ba3d5051401b1256176e2edd/e/b799a829a7f81e317459a1b8).
 
 ### Part Image
 
-Take a nice screenshot of your Onshape document. 
+* Key
+
+![pullcopter's Key](images/PullCopter%20Key.PNG)
+
+* Prop
+
+![pullcopter's Prop](images/PullCopter%20Prop.PNG)
+
+* Top
+
+![pullcopter's Top](images/PullCopter%20Top.PNG)
+
+
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+This assignment was fun and easy as it consisted of one part builds and also consisted of a Fun method of extending the **propellers** by making a one sided, angled shape and *extruding* it to to other face to the rim of the propellers. This made it easier to **circular pattern** the feature and added three other propellers of the same size completing the **prop**. The Key was fun as making the **teeth** going into the **TOP** would would allow everything to work unifiably.
 
 &nbsp;
 
+<br>
+<br>
 
-
-## Raspberry_Pi_Assignment_Template
+## Assembly
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+This section is the final and assembeled version of the **PullCopter** parts and consists of **revolute, slider** and **fastened** mates which makes the pullcopter work at once and show how the pull copter moves.
 
-### Evidence 
+### Part Link 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+[Onshape Link](https://cvilleschools.onshape.com/documents/c240f6cf5aa5e32cf7d69d7e/w/ba3d5051401b1256176e2edd/e/855feb2edc081eb726a566e2).
 
-### Wiring
+### Part Image
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+* Final assembly
 
-### Code
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+![pullcopter's Final assembly](images/PullCopter%20Assembled.PNG)
+
+
+
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+This assignment was fun and got to see my pullcopter come together. the **Top** is *fastened* to the **ring** and the **key is *slider* mated to the **top**. each part works together and allowed for a completed version. The Propellers could be made to different iterations and replace the older prop since the way to do it is discovered.
 
 &nbsp;
+
+<br>
+<br>
+---
+
+<br>
+<br>
+
+# [BACK TO TOP](#engineering_4_notebook)
+
+<br>
+<br>
+
